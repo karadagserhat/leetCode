@@ -1,6 +1,5 @@
 function powerOfThree(n) {
   let exponent = (Math.log(n) / Math.log(3)).toFixed(10);
-  console.log(exponent);
 
   return exponent % 1 === 0;
 }
